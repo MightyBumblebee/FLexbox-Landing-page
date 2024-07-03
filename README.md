@@ -1,2 +1,2 @@
-# FLexbox-Landing-page
+# Flexbox-Landing-page
 Flexbox assignment
