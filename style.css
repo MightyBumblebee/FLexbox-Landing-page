@@ -12,10 +12,10 @@ body {
     margin: 0px;
     padding: 0px;
     display: flex;
-        flex-direction: column;
+    flex-direction: column;
     justify-content: space-between;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+    min-height: 100vh;
 }
 
 #page-container {
@@ -41,10 +41,6 @@ body {
     background-color: #1F2937;
     color: white;
     padding: 0% 20%; 
-    }
-
-.main1-content {
-    display: flex;
 }
 
 .main1-text1 {
@@ -92,29 +88,29 @@ li {
 a {
     text-decoration: none;
     color: #E5E7EB;
-  }
+}
 
 .main1-content {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    gap: 30%;
-    
+    gap: 2em;
+    padding: 4em 0;
 }
 
 .sub2-picture {
-    width: 480px;
-    height: 240px;
+    width: 576px;
+    height: 298px;
+    border-radius: 2.5%;
 }
 
 .main1-sub2 {
-    flex: 1 1 1;
     margin: 20px 0px;
 }
 
 .main1-sub1 {
     
-    flex: 1;
     min-width: 300px;
 }
 
@@ -131,6 +127,7 @@ a {
 .main2 {
     display: flex;
     flex-direction: column;
+    align-items: center;
     min-height: 300px;
     flex: 1 1 1;
     padding: 0% 15%;
@@ -143,28 +140,28 @@ a {
 }
 
 .main2-picture {
-    min-height: 100px;
-    min-width: 100px;
-    flex: 1;
-}
-
-img.main2-picture {
-    height: 300px;
+    height: 200px;
     width: 200px;
+    border-radius: 2.5%;    
 }
 
 .cards {
     display: flex;
-    justify-content: space-around;
-    gap: 5px;
-    margin: 0px 200px;
-    min-width: 200px;
-    min-height: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
 }
 .card {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
+    text-wrap: wrap;
     flex: 1;
-    text-align-last: center;
+
     
 }
 
